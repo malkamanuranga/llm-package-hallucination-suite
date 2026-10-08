@@ -1,0 +1,14 @@
+# Ignore local environment variables and secret files
+.env
+*.env
+keys.txt
+secrets/
+
+# Ignore Python cache and runtime folders
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Ignore local execution artifacts (optional)
+*.log
